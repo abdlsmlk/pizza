@@ -1,6 +1,15 @@
 import pytest
 from src.v2.thin_crust import ThinCrust
 from src.v2.cheese import Cheese
+from src.v2.sausage import Sausage
+from src.v2.stuffedcrust import StuffedCrust
+from src.v2.blackolive import BlackOlive
+from src.v2.pepperoni import Pepperoni
+from src.v2.deepdishcrust import DeepDishCrust
+from src.v2.handtossedcrust import HandTossedCrust
+
+
+
 
 def test_thin_crust():
     pizza = ThinCrust()
